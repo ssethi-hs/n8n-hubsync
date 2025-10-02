@@ -72,8 +72,9 @@ const containerClasses = computed(() => {
 }
 
 .sidebarExpanded .logo {
-	height: 35px;
-	margin-left: var(--spacing-2xs);
+	height: 48px;
+	width: 100%;
+	padding: 0 var(--spacing-s);
 }
 
 .sidebarCollapsed .logo {
